@@ -1,0 +1,23 @@
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #47093B;
+  background-color: #5F5F5F;
+  width: 100%;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+li{
+  margin-right: 1.3vw;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
