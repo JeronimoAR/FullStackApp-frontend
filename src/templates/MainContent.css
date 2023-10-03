@@ -7,15 +7,31 @@ main{
 }
 
 .cards{
-    width: 70%;
+    width: 80%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
+    margin-top: 20px;
 }
 .student-card{
     width: 40%;
-    padding: 20px;
+    padding: 10px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    box-shadow: #D40F17 0px 0px 7px 0px;
+    border-radius: 10px;
+    margin: 20px 0px;
+}
+.delete-btn{
+    color:#ffffff;
+    background-color: #D40F17;
+    border: #D40F17 2px solid;
+}
+
+.delete-btn:hover{
+    color: #D40F17;
+    background-color: #ffffff;
+    border: #D40F17 2px solid;
 }

@@ -5,6 +5,9 @@ header {
   color: #e1d708;
   background-color: #350094;
   width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 100;
 }
 
 ul {

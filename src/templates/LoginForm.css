@@ -17,6 +17,10 @@ form {
   margin: 7px 0px;
 }
 
+.form-response{
+  color: #D40F17;
+}
+
 .form-input {
   position: relative;
   padding: 5px;
