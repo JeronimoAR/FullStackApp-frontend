@@ -1,6 +1,7 @@
 import './App.css';
 import NavBar from './components/NavBar';
 import LoginForm from './components/LoginForm';
+import MainContent from './components/MainContent';
 
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
       <NavBar/>
       <LoginForm/>
+      <MainContent/>
     </div>
   );
 }

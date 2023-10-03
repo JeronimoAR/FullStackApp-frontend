@@ -4,12 +4,11 @@ export default function NavBar(){
 
     return (
         <header>
-            <a href="/"><img src="#" alt="logo" /></a>
-            <h1>FullStack Application Students</h1>
+            <h1 className='nav-title'>FullStack Application Students</h1>
             <nav>
                 <ul>
-                    <li><a href="/">log in</a></li>
-                    <li><a href="/">sign in</a></li>
+                    <li><a className='nav-btn' href="/">Log In</a></li>
+                    <li><a className='nav-btn' href="/">Sign In</a></li>
                 </ul>
             </nav>
         </header>
