@@ -3,7 +3,7 @@ header {
   justify-content: space-between;
   align-items: center;
   color: #e1d708;
-  background-color: #350094;
+  background-color: #871594;
   width: 100%;
   position: fixed;
   top: 0;
@@ -28,7 +28,7 @@ a {
 }
 
 .nav-btn {
-  color: #350094;
+  color: #871594;
   background-color: #e1d708;
   border: #e1d708 2px solid;
   padding: 5px 15px;
@@ -38,6 +38,6 @@ a {
 
 .nav-btn:hover{
   color: #e1d708;
-  background-color: #350094;
+  background-color: #871594;
   border: #e1d708 2px solid;
 }
