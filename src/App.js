@@ -1,10 +1,10 @@
 import "./App.css";
-import StudentCards from "./components/StudentCards";
-import StudentForm from "./components/StudentForm";
 import MainContent from "./components/MainContent";
 import { Routes, Route } from "react-router-dom";
 import NavBar from "./components/NavBar";
 import LoginForm from "./components/LoginForm";
+import RegisterForm from "./components/RegisterForm";
+import UserCards from "./components/UserCards";
 
 function App() {
   return (
@@ -12,9 +12,9 @@ function App() {
       <NavBar />
       <Routes>
         <Route exact path="/" element={<MainContent/>}/>
-        <Route path="/student/LogIn" element={<LoginForm/>}/>
-        <Route path="/student/Register" element={<StudentForm/>}/>
-        <Route path="/student/AllStudents" element={<StudentCards/>}/>
+        <Route path="/user/LogIn" element={<LoginForm/>}/>
+        <Route path="/user/Register" element={<RegisterForm/>}/>
+        <Route path="/user/AllStudents" element={<UserCards/>}/>
       </Routes>
     </div>
   );
