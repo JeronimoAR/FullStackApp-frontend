@@ -7,25 +7,9 @@ export default function RegisterForm() {
   const [password, setPassword] = useState("");
   const [response, setResponse] = useState("");
 
-  const handleClick = (e) => {
-    e.preventDefault();
-    if (name !== "" && email !== "" && password !== "") {
-      const user = { name, email, password };
-      console.log(user);
-      fetch("http://localhost:8080/user/add", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(user),
-      }).then(() => {
-        alert("New User has been Added");
-        window.location.reload(false);
-      });
-    } else {
-      setResponse("Completa los campos");
-    }
-  };
+
   return (
-    <form className="student-register" onSubmit={handleClick}>
+    <form className="student-register">
       <h2 className="form-response">{response}</h2>
       <h1 className="form-title">Register</h1>
       <div className="form-input-cont">
